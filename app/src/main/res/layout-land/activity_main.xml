@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bienvenue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenue"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        android:gravity="center"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btCommander"
+        android:text="@string/btCommander"
+        android:layout_below="@+id/bienvenue"
+        android:layout_marginTop="20dp"
+        android:onClick="Commander" />
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btToaster"
+        android:text="@string/btToaster"
+        android:layout_marginTop="20dp"
+        android:onClick="Horaire"
+        />
+</LinearLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btNotif"
+        android:text="@string/notif"
+        android:layout_marginTop="10dp"
+        android:onClick="Notification"
+        android:layout_centerHorizontal="true"
+        />
+</LinearLayout>

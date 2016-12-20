@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">La Fine Fleur</string>
+    <string name="bienvenue">Bienvenue chez La Fine Fleur</string>
+    <string name="btCommander">Commander votre bouquet</string>
+    <string name="btToaster">Horaire douverture</string>
+    <string name="title_activity_commander">Commander</string>
+    <string name="notif">Abonnez-vous à la notifLetter</string>
+</resources>

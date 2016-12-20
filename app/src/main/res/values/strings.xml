@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">La Fine Fleur</string>
+    <string name="bienvenue">Welcome to La Fine Fleur</string>
+    <string name="btCommander">Purchase your bouquet</string>
+    <string name="btToaster">Openning time</string>
+    <string name="title_activity_commander">Purchase</string>
+    <string name="notif">Subscribe to the notifLetter</string>
+</resources>
